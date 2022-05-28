@@ -23,7 +23,7 @@ jobs:
         NAME: lin
       with:
         arch: arm64
-        compiler: aosp-clang/master/clang-r450784e/binutils
+        compiler: clang/11/binutils
         defconfig: beryllium_defconfig
         image: Image.gz-dtb
 
