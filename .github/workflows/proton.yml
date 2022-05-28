@@ -23,7 +23,7 @@ jobs:
         NAME: lin
       with:
         arch: arm64
-        compiler: proton-clang/9fb011b/binutils
+        compiler: aosp-clang/master/clang-r450784e/binutils
         defconfig: beryllium_defconfig
         image: Image.gz-dtb
 
